@@ -1,0 +1,73 @@
+* {
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    background-color: #1C1C1C;
+}
+
+    
+#bg-gradient {
+    background: linear-gradient(55deg, #87CEEB, #0000FF);
+}
+
+.container {
+}
+
+.skills {
+    width: 500px;
+    margin: 60px auto;
+    color: white
+}
+
+.skills li {    
+    margin: 20px 0;
+}
+
+.bar {
+    background: #333;
+    display: block;
+    height: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 px #2187E7B3;
+}
+
+.bar span {
+    height: 5px;
+    float: left;
+    background: #2187E7;
+    background: linear-gradient(55deg, #87CEEB, #0000FF);
+}
+
+.html {
+    width: 97%;
+}
+
+.css {
+    width: 89%;
+}
+
+.javascript {
+    width: 68%;
+}
+
+.git {
+    width: 88%;
+}
+
+.github {
+    width: 90%;
+}
+
+.node {
+    width: 15%;
+}
+
+.bootstrap {
+    width: 30%;
+}
